@@ -61,6 +61,7 @@ node default {
   #include dnsmasq
   include git
   include chrome
+  include rabbitmq
   #include hub
   #include nginx
 
