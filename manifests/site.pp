@@ -62,6 +62,9 @@ node default {
   #include dnsmasq
   include git
   include chrome
+
+  include mou
+  include mou::themes
   #include hub
   #include nginx
 
