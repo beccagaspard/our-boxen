@@ -61,7 +61,6 @@ node default {
   #include dnsmasq
   include git
   include chrome
-  include rabbitmq
   #include hub
   #include nginx
 
@@ -87,7 +86,8 @@ node default {
     [
       'ack',
       'findutils',
-      'gnu-tar'
+      'gnu-tar',
+      'rabbitmq'
     ]:
   }
 
