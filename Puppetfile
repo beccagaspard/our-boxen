@@ -60,8 +60,7 @@ github "intellij",    "1.5.1"
 github "java",        "1.7.0"
 github "chrome",      "1.1.2"
 github "atom",        "1.0.0"
-github "mou",         "1.1"
-github "property_list_key", "0.1.0"
+github "brewcask",    "0.0.3", :repo => "phinze/puppet-brewcask"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
