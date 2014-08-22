@@ -25,6 +25,10 @@ Exec {
   ]
 }
 
+class { 'intellij':
+  edition => 'ultimate',
+}
+
 File {
   group => 'staff',
   owner => $boxen_user
