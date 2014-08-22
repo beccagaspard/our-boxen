@@ -95,6 +95,9 @@ node default {
   }
 
   package { 'mou': provider => 'brewcask' }
+  package { 'sourcetree': provider => 'brewcask' }
+  package { 'github': provider => 'brewcask' }
+
 
   file { "${boxen::config::srcdir}/our-boxen":
     ensure => link,
