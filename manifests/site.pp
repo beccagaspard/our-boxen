@@ -60,6 +60,7 @@ node default {
   # core modules, needed for most things
   #include dnsmasq
   include git
+  include chrome
   #include hub
   #include nginx
 

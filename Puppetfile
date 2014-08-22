@@ -58,6 +58,7 @@ github "sudo",        "1.0.0"
 #github "xquartz",     "1.1.1"
 github "intellij",    "1.5.1"
 github "java",        "1.7.0"
+github "chrome",      "1.1.2"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
