@@ -94,6 +94,8 @@ node default {
     ]:
   }
 
+  package { 'mou': provider => 'brewcask' }
+
   file { "${boxen::config::srcdir}/our-boxen":
     ensure => link,
     target => $boxen::config::repodir
