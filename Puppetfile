@@ -59,6 +59,7 @@ github "sudo",        "1.0.0"
 github "intellij",    "1.5.1"
 github "java",        "1.7.0"
 github "chrome",      "1.1.2"
+github "atom",        "1.0.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.

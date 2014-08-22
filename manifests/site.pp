@@ -2,6 +2,7 @@ require boxen::environment
 require homebrew
 require gcc
 require java
+require atom
 
 Exec {
   group       => 'staff',
