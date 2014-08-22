@@ -1,7 +1,6 @@
 require boxen::environment
 require homebrew
 require gcc
-require intellij
 
 Exec {
   group       => 'staff',
